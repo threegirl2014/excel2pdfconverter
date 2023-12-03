@@ -11,3 +11,6 @@ convert excel to pdf 【xls与xlsx批量转化为pdf的东西】
 
 其中-n和-i后面的内容可自定义。
 
+
+另外，freeze.py是给py2exe用的，无法只生成一个exe文件，不如pyinstaller好用。
+
