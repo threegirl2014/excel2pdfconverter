@@ -15,12 +15,12 @@ pdf_path=None
 def callback1():
     global excel_path
     excel_path = tkinter.filedialog.askdirectory()
-    print('已确认excel文件所属位置')
+    print('已确认excel文件所属位置' + excel_path)
 
 def callback2():
     global pdf_path
     pdf_path = tkinter.filedialog.askdirectory()
-    print('已确认pdf文件输出位置')
+    print('已确认pdf文件输出位置' + pdf_path)
 
 def callback3():
     for root, dirs, files in os.walk(excel_path):
