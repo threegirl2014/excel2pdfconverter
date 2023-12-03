@@ -12,5 +12,5 @@ walk through directory iteratively, batch convert excel to pdf.
 the content after `-n` and `-i` can modified for your own demand.
 
 
-besids, `freeze.py` is the builder for py2exe, which can not transfer the python code to only ONE exe file. so I choose `pyinstaller`. 
+besids, `freeze.py` is the builder for py2exe, which can not transfer the python code to only ONE exe file. so I choose `pyinstaller` instead. 
 
