@@ -1,7 +1,7 @@
 # excel2pdfconverter
 walk through directory iteratively, batch convert excel to pdf.
 
-- simple logic：using pywin32 to call Windows API directly。
+- simple logic：using pywin32 to call Windows API directly.
 
 - atention: need `pywin32(pip install pywin32)`.
 
