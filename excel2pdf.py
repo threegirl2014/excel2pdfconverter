@@ -52,9 +52,9 @@ def callback3():
 
 if __name__=="__main__":
     root = Tk()
-    root.title('excel转pdf')
+    root.title('GD_excel转pdf_v1.0')
     Button(root, text="EXCEL路径", fg="blue",bd=2,width=28,command=callback1).pack()
     Button(root, text="PDF输出路径", fg="blue",bd=2,width=28,command=callback2).pack()
-    Button(root, text="转换", fg="blue",bd=2,width=28,command=callback3).pack()
+    Button(root, text="转换到PDF输出路径", fg="blue",bd=2,width=28,command=callback3).pack()
     Button(root, text="EXCEL原路径一键输出", fg="red", bd=2,width=28,command=callback3).pack()
     root.mainloop()
